@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Fit in one line</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.quickfit.js" type="text/javascript" charset="utf-8"></script>  
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<form class="form">
+    <label>Erter the text.</label>
+    <input type="text" name="text" id="text">
+    <br/>
+    <div class="slidecontainer">
+    <label>Drag the width</label>
+    <input type="range" min="1"  class="slider" id="myRange">
+    <p>Width: <span id="demo">100 %</span></p>
+  </div>
+</form>
+
+<div id="quickfit" class="demo"></div>
+</body>
+<script src="functions.js" type="text/javascript" charset="utf-8"></script>
+</html>
