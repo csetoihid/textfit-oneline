@@ -11,3 +11,5 @@ Typical use case for this solution would be when you have a button with width/he
 set by designer, but the text length can be different depending on the language of the text.
 Real world example is iPhone’s phone app when you try to dial a number and as you enter
 more and more digits the font-size gets smaller.
+
+Demo textfitoneline.toihid.com
