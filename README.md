@@ -12,4 +12,4 @@ set by designer, but the text length can be different depending on the language 
 Real world example is iPhone’s phone app when you try to dial a number and as you enter
 more and more digits the font-size gets smaller.
 
-Demo textfitoneline.toihid.com/index.html
+Demo textfitoneline.toihid.com
