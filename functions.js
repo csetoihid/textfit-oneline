@@ -1,4 +1,4 @@
-
+// Define max widt according to width of window
 $('#myRange').attr( 'max',$( window ).width());
 $('#text').keyup(function() { 
   callTextfit();
@@ -6,10 +6,12 @@ $('#text').keyup(function() {
 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
+// Run when change the range slider
 slider.oninput = function() {
   output.innerHTML = this.value+'px';
   callTextfit();   
 }
+// change font size according to width
 function textFit(rangeWidth){
       $(function() {
         $(window).on('resize', function() {
@@ -19,6 +21,7 @@ function textFit(rangeWidth){
       });
 }
 
+// Set paramater and call textfit function
 function callTextfit(){
    $('#quickfit').attr( 'data-quickfit',$('#text').val());
   $('#quickfit').text($('#text').val());
